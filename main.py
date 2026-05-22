@@ -1,6 +1,6 @@
 Web VPython 3.2
 import random
-scene = canvas(title = 'ping pong!', width = 600, height = 400)
+scene = canvas(title = 'ping pong!', width = 650, height = 400)
 bar1 = box(pos=vector(-0.8, 0, 0), size=vector(0.1, 0.8, 0.5), color=color.white)
 bar2 = box(pos=vector(0.8, 0, 0), size=vector(0.1, 0.8, 0.5), color=color.white) 
 velocity = vector(0.05, 0, 0)
