@@ -11,7 +11,6 @@ dt = 0.05
 speed = 0.5
 amplitude = 0.5
 
-ball1 = sphere(pos=vector(1, 0.8, 0), radius=0.1)
 ball = sphere(pos=vector(0, 0, 0), radius=0.065)
 velocity = vector(0.01, 0, 0)
 color_list = [color.red, color.orange, color.yellow, color.green, color.blue, color.purple]
