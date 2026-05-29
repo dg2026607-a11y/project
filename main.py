@@ -2,8 +2,8 @@ Web VPython 3.2
 import random
 
 scene = canvas(title = 'Ping Pong!', width = 650, height = 400)
-bar1 = box(pos=vector(-0.8, 0, 0), size=vector(0.1, 1.5, 0.5), color=color.white)
-bar2 = box(pos=vector(0.8, 0, 0), size=vector(0.1, 1.5, 0.5), color=color.white) 
+bar1 = box(pos=vector(-0.8, 0, 0), size=vector(0.1, 1.8, 0.5), color=color.white)
+bar2 = box(pos=vector(0.8, 0, 0), size=vector(0.1, 1.8, 0.5), color=color.white) 
 
 t = 0
 dt = 0.05
