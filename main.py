@@ -5,10 +5,10 @@ scene = canvas(title = 'Ping Pong!', width = 650, height = 400)
 bar1 = box(pos=vector(-0.8, 0, 0), size=vector(0.1, 1.8, 0.5), color=color.white)
 bar2 = box(pos=vector(0.8, 0, 0), size=vector(0.1, 1.8, 0.5), color=color.white) 
 
-t = 0
-dt = 0.05
-speed = 0.5
-amplitude = 0.5
+t = 0 #시간
+dt = 0.05 #시간의 간격/정밀도
+speed = 0.5 #속도 조절 나사
+amplitude = 0.5 #진폭/움직임 범위
 
 ball = sphere(pos=vector(0, 0, 0), radius=0.065)
 velocity = vector(0.01, 0.01, 0)
@@ -35,4 +35,4 @@ while True:
 
     k = keysdown()
     if ' ' in k and (ball.pos.x > 0.71 or ball.pos.x < -0.71)  :
-        ball.color = color_list[random.randint(0,2)]
+        ball.color = color_list[random.randint(0,5)]
